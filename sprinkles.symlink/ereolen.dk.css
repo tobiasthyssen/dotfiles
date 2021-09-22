@@ -1,0 +1,6 @@
+.record-button {
+  z-index: 100;
+  position: fixed;
+  bottom: 1em;
+  left: 1em;
+}
