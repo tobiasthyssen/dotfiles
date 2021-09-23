@@ -43,15 +43,10 @@ tap "homebrew/cask-fonts"
 cask "font-courier-prime"
 cask "font-courier-prime-code"
 cask "font-cousine"
-cask "font-dejavu-sans"
-cask "font-dejavusansmono-nerd-font"
 cask "font-fantasque-sans-mono"
 cask "font-fira-code"
 cask "font-fira-sans"
-cask "font-firacode-nerd-font"
-cask "font-firacode-nerd-font-mono"
 cask "font-inconsolata"
-cask "font-input"
 cask "font-inter"
 cask "font-iosevka"
 cask "font-iosevka-aile"
@@ -59,20 +54,16 @@ cask "font-iosevka-curly"
 cask "font-iosevka-curly-slab"
 cask "font-iosevka-etoile"
 cask "font-iosevka-slab"
-cask "font-iosevka-sparkle"
 cask "font-lekton"
-cask "font-liberation-sans"
 cask "font-monoid"
 cask "font-mononoki"
 cask "font-roboto"
-cask "font-roboto-condensed"
 cask "font-roboto-mono"
-cask "font-sourcecodepro-nerd-font"
 cask "font-victor-mono"
 
 mas "Amphetamine", id: 937984704
 mas "Bitwarden", id: 1352778147
 mas "iA Writer", id: 775737590
 mas "Sprinkles", id: 1500209074
-mas "Things", id: 904280696
+#mas "Things", id: 904280696
 mas "Wipr", id: 1320666476
