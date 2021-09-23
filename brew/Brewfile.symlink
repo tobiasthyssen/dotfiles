@@ -1,9 +1,5 @@
-#taps
-tap "federico-terzi/espanso"
-
 brew "aria2"
 brew "curl"
-brew "espanso"
 brew "git"
 brew "hub"
 brew "mas"

@@ -24,9 +24,6 @@ sudo spctl --master-disable
 sudo defaults write /var/db/SystemPolicy-prefs.plist enabled -string no
 defaults write com.apple.LaunchServices LSQuarantine -bool false
 
-echo "Preventing Time Machine from prompting to use new hard drives as backup volume"
-defaults write com.apple.TimeMachine DoNotOfferNewDisksForBackup -bool true
-
 echo 'Completely turn off Dashboard'
 defaults write com.apple.dashboard mcx-disabled -bool true
 
@@ -61,7 +58,6 @@ defaults -currentHost write NSGlobalDomain com.apple.mouse.tapBehavior -int 1
 defaults write NSGlobalDomain com.apple.mouse.tapBehavior -int 1
 
 # DOCK
-
 echo 'Speed up Mission Control animations'
 defaults write com.apple.dock expose-animation-duration -float 0.1
 
@@ -104,10 +100,10 @@ defaults write com.apple.finder FXDefaultSearchScope -string "SCcf"
 
 echo "Finder: Use column view in all Finder windows by default"
 # Four-letter codes for the other view modes: `icnv`, `clmv`, `Flwv`
-defaults write com.apple.finder FXPreferredViewStyle -string "Clmv"
+defaults write com.apple.finder FXPreferredViewStyle -string "clmv"
 
 echo "Finder: Set Default Finder location to Home"
-defaults write com.apple.finder NewWindowTarget -string "Clmv" && \
+defaults write com.apple.finder NewWindowTarget -string "clmv" && \
 defaults write com.apple.finder NewWindowTargetPath -string "file://${HOME}"
 
 echo "Finder: Show the ~/Library folder"
@@ -131,9 +127,6 @@ defaults write com.apple.finder DisableAllAnimations -bool true
 
 echo 'Finder: show all filename extensions'
 defaults write NSGlobalDomain AppleShowAllExtensions -bool true
-
-echo "Finder: show hidden files by default"
-defaults write com.apple.finder AppleShowAllFiles -bool true
 
 echo 'Finder: Disable the warning when changing a file extension'
 defaults write com.apple.finder FXEnableExtensionChangeWarning -bool false
