@@ -2,7 +2,7 @@
 export CLICOLOR=1
 
 fpath=($ZSH_FILES/functions $fpath)
-autoload -U $ZSH_FILES/functions/*(:t)
+#autoload -U $ZSH_FILES/functions/*(:t)
 
 # makes color constants available
 autoload -U colors

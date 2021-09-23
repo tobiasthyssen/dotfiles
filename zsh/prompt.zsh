@@ -1,19 +1,18 @@
-function prompt_char {
-    git branch >/dev/null 2>/dev/null && echo '±' && return
-    hg root >/dev/null 2>/dev/null && echo 'Hg' && return
-    echo '○'
+# Load version control information
+autoload -Uz vcs_info
+zstyle ':vcs_info:*' enable git
+precmd() { vcs_info }
+
+# Format the vcs_info_msg_0_ variable
+zstyle ':vcs_info:*' check-for-changes true
+zstyle ':vcs_info:*' formats '(%b%u%c)'
+zstyle ':vcs_info:*' actionformats '(%a|%m)'
+zstyle ':vcs_info:*' unstagedstr '%{%F{red}%}●%{%f%}'
+zstyle ':vcs_info:*' stagedstr '%{%F{green}%}●%{%f%}'
+zstyle ':vcs_info:git:*' patch-format '%10>...>%p%<< (%n applied)'
+
+parse_ssh_connection() {
+  [[ -n $SSH_CONNECTION ]] && echo "%n@%m "
 }
 
-function virtualenv_info {
-    [ $VIRTUAL_ENV ] && echo '('`basename $VIRTUAL_ENV`') '
-}
-
-PROMPT='
-%{$fg[magenta]%}%n%{$reset_color%} at %{$fg[yellow]%}%m%{$reset_color%} in %{$fg_bold[green]%}%~%{$reset_color%}$(git_prompt_info)
-$(virtualenv_info)$(prompt_char) '
-
-ZSH_THEME_GIT_PROMPT_PREFIX=" on %{$fg[magenta]%}"
-ZSH_THEME_GIT_PROMPT_SUFFIX="%{$reset_color%}"
-ZSH_THEME_GIT_PROMPT_DIRTY="%{$fg[green]%}!"
-ZSH_THEME_GIT_PROMPT_UNTRACKED="%{$fg[green]%}?"
-ZSH_THEME_GIT_PROMPT_CLEAN=""
+PROMPT='$(parse_ssh_connection)%F{cyan}%~%f ${vcs_info_msg_0_} %F{yellow}>%f'

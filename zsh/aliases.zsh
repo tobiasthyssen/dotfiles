@@ -9,7 +9,6 @@ alias pweb='python -m SimpleHTTPServer'
 alias online='ping -c 1 google.com &> /dev/null'
 alias docker-killall="docker ps | tail -n +2 | awk '{ print \$1 }' | xargs docker kill"
 
-
 # Git
 alias g='git'
 alias gp='git push'
@@ -24,12 +23,3 @@ alias gmt='git mergetool'
 alias gs='git status -sb'
 alias gci='git commit -m'
 alias gcm='git checkout master'
-alias gdmb='git branch --merged | grep -v "\*" | xargs -n 1 git branch -d'
-
-# Ruby
-alias be='bundle exec'
-alias ra='rails'
-
-# JS
-alias yr="yarn run"
-alias npr="npm run"
