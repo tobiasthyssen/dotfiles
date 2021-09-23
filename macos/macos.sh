@@ -107,7 +107,7 @@ echo "Finder: Use column view in all Finder windows by default"
 defaults write com.apple.finder FXPreferredViewStyle -string "Clmv"
 
 echo "Finder: Set Default Finder location to Home"
-defaults write com.apple.finder NewWindowTarget -string "PfLo" && \
+defaults write com.apple.finder NewWindowTarget -string "Clmv" && \
 defaults write com.apple.finder NewWindowTargetPath -string "file://${HOME}"
 
 echo "Finder: Show the ~/Library folder"
