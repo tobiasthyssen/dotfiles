@@ -15,6 +15,7 @@ cask_args appdir: "/Applications"
 tap "homebrew/cask"
 
 cask "appcleaner"
+cask "blender"
 cask "calibre"
 cask "darktable"
 cask "discord"
@@ -58,8 +59,7 @@ cask "font-roboto-mono"
 cask "font-victor-mono"
 
 mas "Amphetamine", id: 937984704
+mas "Better", id: 1121192229
 mas "Bitwarden", id: 1352778147
 mas "iA Writer", id: 775737590
 mas "Sprinkles", id: 1500209074
-#mas "Things", id: 904280696
-mas "Wipr", id: 1320666476
