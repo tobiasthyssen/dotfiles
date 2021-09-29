@@ -5,7 +5,9 @@ end)
 auto_reload:start()
 hs.alert.show("🤖")
 
--- Mouse back / forward. Not working...
+-- Mouse back / forward
+-- NOTE: If on a keyboard with danish layout, this only works by modifying safari shortcut to "cmd + å" and "cmc + ¨".
+--       Hammerspoon translates the missing key ("[" and "]") to keycode 30 and 33, which the system translates to "å" and "¨"
 mouse_back_forward = hs.eventtap.new({hs.eventtap.event.types.otherMouseDown}, function(event)
     if event:getButtonState(3) then
         hs.eventtap.keyStroke({"cmd"}, "[")
