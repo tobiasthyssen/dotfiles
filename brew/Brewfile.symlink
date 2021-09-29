@@ -30,8 +30,6 @@ cask "kap"
 cask "libreoffice"
 cask "maccy"
 cask "portfolioperformance"
-cask "rectangle"
-cask "slack"
 cask "spotify"
 cask "sublime-text"
 cask "vlc"
@@ -59,8 +57,6 @@ cask "font-roboto"
 cask "font-roboto-mono"
 cask "font-victor-mono"
 
-mas "Amphetamine", id: 937984704
 mas "Better", id: 1121192229
 mas "Bitwarden", id: 1352778147
-mas "iA Writer", id: 775737590
 mas "Sprinkles", id: 1500209074
