@@ -2,5 +2,4 @@
 
 
 To do:
-- Sync Sublime Text settings
 - Replace Rectangle with Hammerspoon script
