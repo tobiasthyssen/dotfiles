@@ -2,4 +2,5 @@
 
 
 To do:
-- Replace Rectangle with Hammerspoon script
+- Replace Rectangle with Hammerspoon
+- Replace Logi Options with Hammerspoon
