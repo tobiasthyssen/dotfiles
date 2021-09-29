@@ -3,6 +3,8 @@
   email = tobias.thyssen@gmail.com
 [github]
   user = tobiasthyssen
+[core]
+  excludesfile = ~/.gitignore
 [push]
 	default = simple
 [credential]
