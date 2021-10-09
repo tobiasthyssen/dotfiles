@@ -12,7 +12,6 @@
     "translate_tabs_to_spaces": true,
     "caret_style": "phase",
     "trim_trailing_white_space_on_save": "all",
-    "ensure_newline_at_eof_on_save": true,
     "fallback_encoding": "UTF-8",
     "theme": "Adaptive.sublime-theme",
     "color_scheme": "auto",
@@ -20,7 +19,7 @@
     "light_color_scheme": "Packages/Alabaster Color Scheme/Alabaster.sublime-color-scheme",
     "ignored_packages":
     [
-        "Vintage",
         "Markdown",
+        "Vintage",
     ],
 }
