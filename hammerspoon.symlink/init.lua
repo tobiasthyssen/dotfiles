@@ -29,6 +29,8 @@ hs.grid.GRIDWIDTH = 6
 hs.grid.MARGINX = 0
 hs.grid.MARGINY = 0
 
+hs.window.animationDuration = 0
+
 hs.hotkey.bind(hyper, "Left", function()
     local window = hs.window.focusedWindow()
 
