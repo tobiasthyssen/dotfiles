@@ -15,21 +15,17 @@ cask_args appdir: "/Applications"
 tap "homebrew/cask"
 
 cask "appcleaner"
-cask "blender"
+cask "backblaze"
 cask "calibre"
 cask "darktable"
 cask "discord"
-cask "docker"
-cask "firefox"
-cask "flux"
 cask "gimp"
-cask "google-chrome"
 cask "hammerspoon"
 cask "imageoptim"
 cask "kap"
 cask "libreoffice"
 cask "maccy"
-cask "portfolioperformance"
+cask "nvidia-geforce-now"
 cask "spotify"
 cask "sublime-text"
 cask "vlc"
@@ -60,3 +56,4 @@ cask "font-victor-mono"
 mas "Better", id: 1121192229
 mas "Bitwarden", id: 1352778147
 mas "Sprinkles", id: 1500209074
+mas "Things", id: 904280696
