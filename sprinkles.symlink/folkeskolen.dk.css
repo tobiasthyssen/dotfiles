@@ -4,4 +4,6 @@
 /* Correct horrible typography. P.S. What is this CSS naming? yuck */
 .FolkeskolenTimesBrdtekst {
     font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Ubuntu, roboto, noto, arial, sans-serif;
+    font-size: 1rem;
+    line-height: 1.5;
 }
