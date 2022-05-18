@@ -1,2 +1,7 @@
 /* Remove ads */
-.ad-container { display: none; }
+.adZone { display: none; }
+
+/* Correct horrible typography. P.S. What is this CSS naming? yuck */
+.FolkeskolenTimesBrdtekst {
+    font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Ubuntu, roboto, noto, arial, sans-serif;
+}
