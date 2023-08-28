@@ -16,19 +16,9 @@ tap "homebrew/cask"
 
 cask "appcleaner"
 cask "backblaze"
-cask "calibre"
-cask "darktable"
-cask "discord"
-cask "gimp"
 cask "hammerspoon"
-cask "imageoptim"
-cask "kap"
-cask "libreoffice"
-cask "maccy"
-cask "nvidia-geforce-now"
 cask "spotify"
 cask "sublime-text"
-cask "vlc"
 
 tap "homebrew/cask-fonts"
 cask "font-courier-prime"
@@ -53,7 +43,4 @@ cask "font-roboto"
 cask "font-roboto-mono"
 cask "font-victor-mono"
 
-mas "Better", id: 1121192229
-mas "Bitwarden", id: 1352778147
 mas "Sprinkles", id: 1500209074
-mas "Things", id: 904280696
