@@ -14,12 +14,11 @@
     "trim_trailing_white_space_on_save": "all",
     "fallback_encoding": "UTF-8",
     "theme": "Adaptive.sublime-theme",
-    "color_scheme": "auto",
+    "color_scheme": "Writer Dark.sublime-color-scheme",
     "dark_color_scheme": "Packages/Alabaster Color Scheme/Alabaster Dark.sublime-color-scheme",
     "light_color_scheme": "Packages/Alabaster Color Scheme/Alabaster.sublime-color-scheme",
     "ignored_packages":
     [
-        "Markdown",
         "Vintage",
     ],
 }

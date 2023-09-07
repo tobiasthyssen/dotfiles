@@ -5,7 +5,6 @@ export PROJECTS=$HOME/dev
 export PATH="./bin:$DOTFILES/bin:/usr/local/bin:/usr/local/sbin:$PATH"
 
 source $ZSH_FILES/config.zsh
-source $ZSH_FILES/prompt.zsh
 source $ZSH_FILES/aliases.zsh
 
 # Enable brew autocomplete
@@ -16,3 +15,5 @@ then
   autoload -Uz compinit
   compinit
 fi
+
+eval "$(starship init zsh)"

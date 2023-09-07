@@ -1,6 +1,5 @@
 // These settings override both User and Default settings for the Markdown syntax
 {
-    "color_scheme": "auto",
     "dark_color_scheme": "Packages/Writer Color Scheme/Writer Dark.sublime-color-scheme",
     "light_color_scheme": "Packages/Writer Color Scheme/Writer.sublime-color-scheme",
     "caret_extra_width": 2,
